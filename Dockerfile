@@ -1,5 +1,5 @@
 FROM node:lts-alpine
-WORKDIR /workspace
+WORKDIR /app
 ADD . .
 RUN npm install
 CMD npm start
